@@ -33,6 +33,7 @@ generate_reference.m
 
 plot_results.m
 animate_quadrotor.m
+animate_quadrotor_comparison.m
 performance_metrics.m
 
 results/
