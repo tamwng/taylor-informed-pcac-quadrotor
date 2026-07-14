@@ -44,9 +44,9 @@ if strcmpi(case_name,'mass_change')
 
     plot_position(runs,reference,time,colors,labels,'case1_position',p);
     plot_attitude(runs,reference,time,colors,labels,'case1_attitude',p);
-    plot_inputs(runs,time,colors,labels,'case1_inputs',p);
-    plot_prediction_errors(runs,time,colors,labels,'case1_prediction_errors',p);
-    plot_qp_times(runs,time,colors,labels,'case1_qp_times',p);
+    % plot_inputs(runs,time,colors,labels,'case1_inputs',p);
+    % plot_prediction_errors(runs,time,colors,labels,'case1_prediction_errors',p);
+    % plot_qp_times(runs,time,colors,labels,'case1_qp_times',p);
 
 elseif strcmpi(case_name,'helix')
     fig = new_figure('Case 2 trajectory tracking',p);
@@ -69,9 +69,9 @@ elseif strcmpi(case_name,'helix')
     save_figure(fig,'case2_trajectory',p);
 
     plot_attitude(runs,reference,time,colors,labels,'case2_attitude',p);
-    plot_inputs(runs,time,colors,labels,'case2_inputs',p);
-    plot_prediction_errors(runs,time,colors,labels,'case2_prediction_errors',p);
-    plot_qp_times(runs,time,colors,labels,'case2_qp_times',p);
+    % plot_inputs(runs,time,colors,labels,'case2_inputs',p);
+    % plot_prediction_errors(runs,time,colors,labels,'case2_prediction_errors',p);
+    % plot_qp_times(runs,time,colors,labels,'case2_qp_times',p);
 else
     error('plot_results:Case','Unknown case "%s".',case_name);
 end

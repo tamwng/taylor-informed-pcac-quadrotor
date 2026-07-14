@@ -105,7 +105,7 @@ p.graphics.save_matlab_figures = false;
 p.graphics.make_animation = true;
 p.graphics.animation_degree = 3;
 p.graphics.animation_stride = 2;
-p.graphics.animation_fps = 18;
+p.graphics.animation_fps = 50;
 p.graphics.arm_length = 0.32;
 
 p.output.directory = 'results';
