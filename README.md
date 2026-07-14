@@ -64,4 +64,3 @@ The script automatically:
 
 - MATLAB
 - Optimization Toolbox (`quadprog`)
-```
