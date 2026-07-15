@@ -6,7 +6,7 @@ The implementation uses:
 
 - Exact nonlinear quadrotor dynamics as the simulated plant.
 - Taylor-informed row-wise RLS identification (D = 1, 2, 3).
-- Jacobian-frozen LPV–ARX prediction.
+- Jacobian-frozen LPV prediction.
 - PCAC solved using `quadprog`.
 - Automatic comparison of all identification degrees for multiple simulation cases. 
 
