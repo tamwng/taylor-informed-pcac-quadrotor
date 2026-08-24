@@ -4,6 +4,10 @@ Supporting MATLAB implementation for the paper **“Taylor-Informed Predictive C
 
 Repository: <https://github.com/tamwng/taylor-informed-pcac-quadrotor>
 
+## Paper
+
+The six-page manuscript included with this release is available at [`paper/Nguyen_2026_Taylor-Informed_PCAC_for_Quadrotors.pdf`](paper/Nguyen_2026_Taylor-Informed_PCAC_for_Quadrotors.pdf). It is the authoritative reference for the formulation, simulation setup, and reported results.
+
 ## Method summary
 
 The implementation combines an exact nonlinear quadrotor plant, sparse degree-1/2/3 Taylor-informed sampled-data dictionaries, row-wise RLS with shared variable-rate forgetting, online mass and gravity-trim estimation, a Jacobian-frozen affine predictor, and PCAC solved with `quadprog`.
@@ -34,7 +38,7 @@ Case 1 — abrupt mass change from 4.34 kg to 5.60 kg:
 | 2 | 0.062 | 0.066 | 0.017 |
 | 3 | 0.069 | 0.031 | 0.007 |
 
-Case 2 — aggressive helix tracking at \(m=m_0=4.34\) kg:
+Case 2 — aggressive helix tracking at $m=m_0=4.34$ kg:
 
 | (D) | Position RMSE (m) | Prediction RMSE (m) | Input variation | Maximum tracking error (m) |
 |---:|---:|---:|---:|---:|
@@ -80,11 +84,11 @@ The source also contains implementation-only numerical safeguards that are not p
 
 ## Citation
 
-Until the arXiv record is available, cite the work as:
+Please cite the paper as:
 
 > Tam W. Nguyen, “Taylor-Informed Predictive Cost Adaptive Control for Quadrotors with Online Gravity-Trim Adaptation,” unpublished L-CSS/ACC manuscript, 2026.
 
-Software citation metadata are provided in [`CITATION.cff`](CITATION.cff). The preferred-citation metadata will be updated when the arXiv record is posted.
+Machine-readable paper and software citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
