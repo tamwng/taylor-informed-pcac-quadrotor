@@ -1,5 +1,5 @@
 function estimate = estimate_trim_mass(rls, dict, p)
-%ESTIMATE_TRIM_MASS Vertical-row projection and trim estimates, Eqs. (61)-(65).
+%ESTIMATE_TRIM_MASS Vertical-row projection and trim estimates, paper Eqs. (52)-(56).
 
 q = 9;
 constant_index = find(strcmp(dict.names{q},'1'),1);

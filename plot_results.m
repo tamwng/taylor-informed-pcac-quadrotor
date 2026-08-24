@@ -72,7 +72,7 @@ style.mass_change_label_vertical_alignment = 'top';
 style.mass_change_label_horizontal_alignment = 'left';
 
 style.prediction_error_states = 1:12;
-style.prediction_error_scale = 'log';       % 'log' or 'linear'
+style.prediction_error_scale = 'linear';    % 'linear' for paper Fig. 4; 'log' is optional
 style.prediction_error_floor = 1.0e-10;
 style.roll_state_index = 5;
 style.pitch_state_index = 6;
@@ -328,6 +328,7 @@ for j = 1:3
             'LineWidth',style.data_line_width);
     end
 end
+set(ax,'YScale',style.prediction_error_scale);
 ylabel(ax,style.prediction_error_label, ...
     'Interpreter','latex','FontSize',style.label_font_size);
 apply_axis_style(ax,style);
@@ -469,7 +470,7 @@ if style.save_pdf
         exportgraphics(fig,pdf_file, ...
             'ContentType','vector','BackgroundColor','white');
     catch
-        print(fig,pdf_file,'-dpdf','-painters','-bestfit');
+        print(fig,pdf_file,'-dpdf','-vector','-bestfit');
     end
 end
 

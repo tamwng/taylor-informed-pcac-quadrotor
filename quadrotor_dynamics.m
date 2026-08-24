@@ -1,5 +1,5 @@
 function xdot = quadrotor_dynamics(x, u, mass, p, disturbance)
-%QUADROTOR_DYNAMICS Exact intrinsic Z-X-Y quadrotor dynamics, paper Eq. (16).
+%QUADROTOR_DYNAMICS Exact intrinsic Z-X-Y quadrotor dynamics, paper Eqs. (11)-(12).
 
 if nargin < 5 || isempty(disturbance)
     disturbance.force_inertial = zeros(3,1);

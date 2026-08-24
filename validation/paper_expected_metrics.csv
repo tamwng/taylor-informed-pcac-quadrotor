@@ -1,0 +1,7 @@
+Case,Method,Coefficients,PositionRMSE_m,FinalMassError_kg,FinalTrimError_N,PredictionPositionRMSE,InputVariation,MaximumTrackingError_m
+mass_change,D=1,40,0.348,0.052,0.028,,,
+mass_change,D=2,58,0.062,0.066,0.017,,,
+mass_change,D=3,80,0.069,0.031,0.007,,,
+helix,D=1,40,0.0519,,,0.001281,154.73,0.1695
+helix,D=2,58,0.0288,,,0.000559,69.27,0.1664
+helix,D=3,80,0.0281,,,0.000483,59.41,0.1664
