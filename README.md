@@ -6,7 +6,7 @@ Repository: <https://github.com/tamwng/taylor-informed-pcac-quadrotor>
 
 ## Paper
 
-The six-page manuscript included with this release is available at [`paper/Nguyen_2026_Taylor-Informed_PCAC_for_Quadrotors.pdf`](paper/Nguyen_2026_Taylor-Informed_PCAC_for_Quadrotors.pdf). It is the authoritative reference for the formulation, simulation setup, and reported results.
+The stable preprint is available as [arXiv:2609.03351](https://arxiv.org/abs/2609.03351), with DOI [10.48550/arXiv.2609.03351](https://doi.org/10.48550/arXiv.2609.03351). A six-page repository copy is preserved at [`paper/Nguyen_2026_Taylor-Informed_PCAC_for_Quadrotors.pdf`](paper/Nguyen_2026_Taylor-Informed_PCAC_for_Quadrotors.pdf). The paper is the authoritative reference for the formulation, simulation setup, and reported results.
 
 ## Method summary
 
@@ -86,9 +86,11 @@ The source also contains implementation-only numerical safeguards that are not p
 
 Please cite the paper as:
 
-> Tam W. Nguyen, “Taylor-Informed Predictive Cost Adaptive Control for Quadrotors with Online Gravity-Trim Adaptation,” unpublished L-CSS/ACC manuscript, 2026.
+> T. W. Nguyen, “Taylor-Informed Predictive Cost Adaptive Control for Quadrotors with Online Gravity-Trim Adaptation,” arXiv:2609.03351, 2026, doi: 10.48550/arXiv.2609.03351.
 
 Machine-readable paper and software citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+
+Release details are recorded in [`RELEASE_NOTES.md`](RELEASE_NOTES.md).
 
 ## License
 

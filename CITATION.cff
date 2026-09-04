@@ -3,7 +3,7 @@ message: "If you use this software, please cite the accompanying paper using the
 title: Taylor-Informed PCAC for Quadrotors
 type: software
 version: 1.0.0
-date-released: 2026-08-24
+date-released: 2026-09-04
 authors:
   - family-names: Nguyen
     given-names: Tam W.
@@ -11,10 +11,11 @@ repository-code: https://github.com/tamwng/taylor-informed-pcac-quadrotor
 url: https://github.com/tamwng/taylor-informed-pcac-quadrotor
 license: BSD-3-Clause
 preferred-citation:
-  type: unpublished
+  type: article
   title: Taylor-Informed Predictive Cost Adaptive Control for Quadrotors with Online Gravity-Trim Adaptation
   authors:
     - family-names: Nguyen
       given-names: Tam W.
   year: 2026
-  url: https://github.com/tamwng/taylor-informed-pcac-quadrotor/blob/v1.0.0/paper/Nguyen_2026_Taylor-Informed_PCAC_for_Quadrotors.pdf
+  doi: 10.48550/arXiv.2609.03351
+  url: https://arxiv.org/abs/2609.03351
